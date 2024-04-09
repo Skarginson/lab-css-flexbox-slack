@@ -8,3 +8,112 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    --bgpurple: #540B51;
+}
+
+nav {
+    display: flex;
+    background-color:var(--bgpurple);
+    padding: 0;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: none;
+}
+
+.slack-logo {
+    width: 10rem;
+    display: flex;
+}
+
+nav button {
+    all: unset;
+    margin: 0 0.5em;
+}
+
+header {
+    background-color:#540B51;
+    display: flex;
+    flex-direction: column;
+}
+
+header h1,
+p {
+    color:white
+}
+
+header h1 {
+    text-align: center;
+}
+
+header p {
+    text-align: center;
+}
+
+.slack-try {
+    color:#ECB12F ;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup button {
+    margin: 0.5rem;
+}
+
+.signup-google {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.signup-google img {
+    height: 2rem;
+}
+
+ .hero-product {
+    width: 100%;
+    /* height: 50rem; */
+    overflow:hidden;
+    padding-bottom: -2rem;
+}
+
+.trust {
+    background-color:#F3EAE2 ;
+    /* display: flex; */
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
+
+.trust p {
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+}
+
+.teams h3,
+.teams span {
+    color: var(--bgpurple);
+}
+
+.teams p {
+    color: black;
+
+}
+
+.teams {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
